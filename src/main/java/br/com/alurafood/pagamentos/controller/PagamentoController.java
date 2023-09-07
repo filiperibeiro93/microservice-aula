@@ -28,7 +28,7 @@ public class PagamentoController {
     }
 
     @GetMapping("/{id}")
-    public Pagamento findOne(@PathVariable Long id) {
+    public Pagamento findById(@PathVariable Long id) {
         return pagamentoService.findOne(id);
     }
 }
