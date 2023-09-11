@@ -17,7 +17,7 @@ public class PagamentoService {
         return repository.findAll();
     }
 
-    public Pagamento findOne(Long id) {
+    public Pagamento findById(Long id) {
         return repository.findById(id).orElseThrow();
     }
 }
