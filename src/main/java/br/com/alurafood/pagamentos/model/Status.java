@@ -6,5 +6,5 @@ public enum Status {
     CONFIRMADO,
     PENDENTE,
     CANCELADO,
-    CHARGEBACK;
+    CHARGEBACK
 }
